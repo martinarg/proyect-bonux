@@ -82,7 +82,7 @@ nav {
 
 }
 
-.btnSlider a{
+.btnSlider a {
     text-decoration: none;
 }
 
@@ -418,37 +418,43 @@ ul {
 .divCopyRight {
     grid-area: divCopyRight;
 }
-.divMenuMobile{
+
+.divMenuMobile {
     display: none;
 }
 
 .menuMobile {
-   
+
     width: 100%;
     border-top: 6px solid whitesmoke;
 }
 
 
 
-.menuMobile li{
-   list-style: none;
+.menuMobile li {
+    list-style: none;
 }
 
-.secMobile, .btnSliderCerrar {
+.secMobile,
+.btnSliderCerrar {
 
     text-decoration: none;
     color: #0054fe;
     font-size: 9vw;
-   
+
 
 }
-.secMobile a, .btnSliderCerrar a{
+
+.secMobile a,
+.btnSliderCerrar a {
     text-align: center;
 }
 
 
 
 /* dispositivos celulares */
+
+
 @media (max-width:390px) {
     .billetes {
         max-width: 100vw;
@@ -531,7 +537,7 @@ ul {
     }
 
     .menuMobile {
-     
+
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -625,11 +631,6 @@ ul {
     .logoAliado {
         width: 37vw;
     }
-
-
-
-
-
 
 
 
