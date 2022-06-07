@@ -449,7 +449,7 @@ ul {
 
 
 /* dispositivos celulares */
-@media (max-width:375px) {
+@media (max-width:390px) {
     .billetes {
         max-width: 100vw;
         height: 156vw;
