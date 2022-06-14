@@ -47,6 +47,20 @@ html {
 
 .logoImg {
     max-width: 130px;
+
+    animation-duration: 2s;
+    animation-name: mostrarLogo;
+
+
+}
+@keyframes mostrarLogo {
+    0%{
+        transform: rotatex(30deg);
+    }
+    100%{
+        transform: rotatex(70deg);
+    }
+    
 }
 
 .menu {
@@ -122,6 +136,25 @@ nav {
     color: white;
     padding: 15px;
     font-size: 49px;
+    animation-duration: 2s;
+    animation-name: crecerTexto;
+   
+}
+
+@keyframes crecerTexto {
+    0%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0.5;
+    }
+  
+  
+    100%{
+       opacity: 1;
+    }
+
+    
 }
 
 
@@ -146,6 +179,18 @@ nav {
     margin-bottom: 1vw;
     font-size: 5vw;
     color: rgb(15, 163, 255);
+    animation-duration: 2s;
+    animation-name: mostrar;
+}
+
+@keyframes mostrar {
+    0%{
+       opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
 }
 
 .textoPqe {
